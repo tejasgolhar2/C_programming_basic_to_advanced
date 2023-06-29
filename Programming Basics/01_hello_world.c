@@ -3,6 +3,6 @@
 
 int main()
 {
-    printf("Gacchu is bacchhu");
+    printf("\nGacchu is bacchhu");
     return 0;
 }
