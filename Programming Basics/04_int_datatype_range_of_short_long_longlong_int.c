@@ -33,7 +33,7 @@ int main()
     unsigned long long int var11 = 0;
     unsigned long long int var12 = ULLONG_MAX;
     printf("\nThe range of long long unsigned integers for this machine is %llu to %llu and it's size is %ld bytes", var11, var12, sizeof(long long int));
-    
+
     //NOTE: A variable can have a maximum possible byte size upto 8 bytes, not more than that
     
     return 0;
