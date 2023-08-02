@@ -52,7 +52,5 @@ Mkfile.old
 dkms.conf
 
 
-#stackoverflow
+# Ignore extensionless files
 *
-!*/
-!*.*
