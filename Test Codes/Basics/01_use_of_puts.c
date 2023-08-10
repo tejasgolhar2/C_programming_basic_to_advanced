@@ -4,6 +4,9 @@
 
 void main()
 {
+    char ch;
+    puts('c');
+    // results into error
     
-    return 0;
+    getch();
 }
