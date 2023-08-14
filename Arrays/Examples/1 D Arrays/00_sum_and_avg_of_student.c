@@ -3,7 +3,8 @@
 
 void main()
 {
-    int n,avg,sum=0;
+    int n,sum=0;
+    float avg;
     printf("Enter the number of students: ");
     scanf("%d",&n);
     int marks[n];
@@ -19,6 +20,6 @@ void main()
     }
     printf("The sum of marks is %d",sum);
     avg = sum/n;
-    printf("\nThe average of marks: %d",avg);
+    printf("\nThe average of marks: %f",avg);
     getch();
 }
