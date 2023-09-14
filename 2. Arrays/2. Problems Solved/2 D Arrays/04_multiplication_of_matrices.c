@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
     int a,b;
     printf("Enter the number of rows in the arrays:\n");
