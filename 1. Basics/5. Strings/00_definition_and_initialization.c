@@ -9,7 +9,6 @@ int main()
 	printf("%s",string1);
 
 	// Approach 2
-	// Append a null character at the end of the string characters
 	char string2[10]={'t','e','j','a','s'};
 	printf("%s",string2);
 	
