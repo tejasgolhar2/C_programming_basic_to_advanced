@@ -59,6 +59,9 @@ dkms.conf
 !*.c*
 # !*.*
 
+# Ignore Gitignore
+.gitignore
+
 # Unignore all dirs
 !*/
 !/**/
