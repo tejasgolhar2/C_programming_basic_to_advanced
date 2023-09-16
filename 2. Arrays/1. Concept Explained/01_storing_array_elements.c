@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <conio.h>
+#include <ncurses.h>
 
-void main()
+int main()
 {
     int array[5];
     // An array having size to accomodate 5 integer values in it
@@ -19,5 +19,5 @@ void main()
     {
         printf("%d ", array[i]);
     }
-    getch();
+    return 0;
 }
