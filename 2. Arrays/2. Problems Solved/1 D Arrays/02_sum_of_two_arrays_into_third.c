@@ -1,9 +1,9 @@
 // Write a program to read two arrays of size 5 and store sum of these arrays into a 3rd array
 
 #include <stdio.h>
-#include <conio.h>
+#include <ncurses.h>
 
-void main()
+int main()
 {
     int arr1[5];
     int arr2[5];
@@ -29,5 +29,5 @@ void main()
     {
         printf("%d\n", arr3[i]);
     }
-    getch();
+    return 0;
 }

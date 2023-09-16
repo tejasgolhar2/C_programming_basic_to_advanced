@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <conio.h>
+#include <ncurses.h>
 
-void main()
+int main()
 {
     int n, sum = 0;
     float avg;
@@ -20,5 +20,5 @@ void main()
 
     avg = sum / n;
     printf("\nThe average of marks: %f", avg);
-    getch();
+    return 0;
 }
