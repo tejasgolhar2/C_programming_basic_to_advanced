@@ -54,6 +54,11 @@ dkms.conf
 # Ignore all
 *
 
+# Unignore all with extensions
+
+!*.c*
+# !*.*
+
 # Unignore all dirs
 !*/
 
@@ -76,6 +81,7 @@ bin/
 
 # Ignore a file with extension
 relative/path/to/dir/filename.extension
+relative/path/to/dir/
 
 # Ignore a file without extension
 relative/path/to/dir/anotherfile
