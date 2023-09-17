@@ -24,8 +24,9 @@ int main()
 
 	// Approach 5
 	// Trying to assign the string size less than actual number of characters present in the string
-	char string4[5]={'t','e','j','a','s'};
-	printf("%s",string4);
+	// Results Error -->>  too many initializers for 'char [5]'
+	//char string4[5]={'t','e','j','a','s','\0'};
+	//printf("%s\n",string4);
 
 	return 0;
 	
