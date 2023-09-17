@@ -16,6 +16,4 @@ int main()
 
 // 		DRAWBACK: 
 // 		1. 		It will print all the entered data (with whitespace, also ) without 
-// 			checking the size allocated to the string during its definition
-// 		2.      We are able to get the first continuous set of characters before the space character.
-//     		This means, whitespace characters are not considered by the scanf() function.
+// 			checking the size allocated to the string during its definition.
