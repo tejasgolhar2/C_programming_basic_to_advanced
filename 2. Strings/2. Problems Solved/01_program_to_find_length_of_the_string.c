@@ -4,6 +4,7 @@
 
 int main()
 {
+	// Initialization of a string with character datatype having length of 30 characters
 	char fname[30];
 
 	printf("Enter Name:\n");
@@ -18,16 +19,18 @@ int main()
 
 	// APPROACH 2 : Using Loops
 	// The space character is not counted in the string
+	// The approach have a drawback that the checking for the null characters is done only upto the size of the string variable
+	//   which can be cumbesome with the use case of gets() within the program
 
 	int i = 0;
-	unsigned int coount=0;
+	unsigned int cunt=0;
 
 	while(fname[i] != '\0')
 	{
 		i++;
-		coount++;
+		cunt++;
 	}
-	printf("The length of string using loop is %d",coount);
+	printf("The length of string using loop is %d",cunt);
 	return 0;
 }
 
