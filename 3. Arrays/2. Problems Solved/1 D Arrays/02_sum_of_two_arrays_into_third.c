@@ -1,7 +1,7 @@
 // Write a program to read two arrays of size 5 and store sum of these arrays into a 3rd array
 
 #include <stdio.h>
-#include <ncurses.h>
+#include <conio.h>
 
 int main()
 {
