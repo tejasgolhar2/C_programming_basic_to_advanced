@@ -4,13 +4,18 @@
 
 int main()
 {
-	char name[10]="Tejas";
-	char surname[10]="Tejas";
+	char name[10],surname[10];
+	printf("Enter the name string:\n");
+	gets(name);
+
+	printf("Enter the surname string:\n");
+	gets(surname);
+
 
 	//Lets compare the name and surname
 	// 		The strcmp( arg1,arg2 ) function 
-	//		It is used which basically takes the base address of both the strings
-	//   from the base address, it checks character by character whether the characters of both are 
+	//		It's a function which basically takes the base address of both the strings.
+	//   From the base address, it checks character by character whether the characters of both are 
 	//   same or not with the help of corresponding ASCII value of the string
 	//	 It returns -  
   	//  	0 - when both are same strings

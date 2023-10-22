@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-void main()
+int main()
 {
     char ch;
     printf("Enter a character: ");
