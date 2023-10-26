@@ -26,8 +26,7 @@ int main()
     printf("%d_%d\n",d,e);
 
     /*In this case, the user wont be asked for entering the second value and directly result will
-    be printed for complete number of digits of first format specifier and rest digits for the next format 
-    specifier*/
+    be printed for width of digits of first format specifier and rest digits for the next */
 
     
     //specifying the width of digits to be taken input in FLOAT

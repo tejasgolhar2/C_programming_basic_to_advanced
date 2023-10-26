@@ -7,7 +7,7 @@ int main() {
 
     printf("Enter a character: ");
     ch = getch(); 
-    // Read a character without displaying it on the screen
+    // Read a single character without displaying it on the screen
 
     //      The character entered wont be echoed (displayed) on the screen and immediately 
     //  the next line would be executed

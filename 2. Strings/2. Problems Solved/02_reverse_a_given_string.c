@@ -4,11 +4,31 @@
 int main()
 {
 	// Approach 1 : Using built-in function
-	char value[10];
-	printf("Enter the value of a string varible:\n");
-	gets(value);
+	// char value[10];
+	// printf("Enter the value of a string varible:\n");
+	// gets(value);
 
-	char hmm[10] = strrev(value);
-	printf("The reversed sring value is %s",hmm);
-	reuturn 0;
+	// // Use the strrev function
+	// strrev(value);
+
+	// printf("The reversed sring value is %s",value);
+
+
+	// Approach 2: By usig algorithm
+	char val2[20];
+	printf("\nEnter the value of a string varible:\n");
+	gets(val2);
+
+
+	int w_len = strlen(val2)-1;
+
+	for(int i=0;i<w_len/2;i++)
+	{
+		char temp = val2[i];
+		val2[i]=val2[w_len];
+		val2[w_len]=temp;
+	}
+	
+	printf("The reversed string is : %s",val2);
+	return 0;
 }
