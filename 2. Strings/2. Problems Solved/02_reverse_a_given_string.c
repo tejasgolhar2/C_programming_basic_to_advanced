@@ -25,8 +25,8 @@ int main()
 	for(int i=0;i<w_len/2;i++)
 	{
 		char temp = val2[i];
-		val2[i]=val2[w_len];
-		val2[w_len]=temp;
+		val2[i]=val2[w_len-i];
+		val2[w_len-i]=temp;
 	}
 	
 	printf("The reversed string is : %s",val2);
