@@ -19,3 +19,4 @@ int main()
 // 			checking the size allocated to the string during its definition
 // 		2.      We are able to get the first continuous set of characters before the space character.
 //     		This means, whitespace characters are not considered by the scanf() function.
+//
