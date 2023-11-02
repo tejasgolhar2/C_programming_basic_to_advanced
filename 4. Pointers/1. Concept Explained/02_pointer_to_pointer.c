@@ -24,7 +24,7 @@ int main()
 	int** add2 = &add;
 
 	// Referencing -- Directing to the address where another address is stored
-	printf("The address of the Variable Pointer 'add' is %X\n", &add );  
+	printf("The address of the Variable Pointer 'add' is %X and %X\n", &add, add2 );  
 
 	// Dereferencing -- Getting the value stored at the address stored by Pointer to POinter Variable
 	printf("The value present at the address stored by pointer to pointer variable is %d\n", **add2 );
