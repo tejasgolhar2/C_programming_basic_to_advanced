@@ -5,14 +5,11 @@
 int main() {
     char ch;
 
-    printf("Enter a character: ");
-    ch = getch(); 
-    // Read a single character without displaying it on the screen
+    
+    ch = getch();       // Read single character without displaying on the screen and immediately 
+                        //  the next line would be executed
 
-    //      The character entered wont be echoed (displayed) on the screen and immediately 
-    //  the next line would be executed
+    printf("\nYou entered: %c", ch);
 
-    printf("\nYou entered: %c\n", ch);
-
-    getch();  // this holds the output screen until user presses any key
+    getch();            // this holds the output screen until user press any key
 }

@@ -1,29 +1,15 @@
 #include<stdio.h>
 #include<conio.h>
 
-void main()
+int main()
 {
-
-    // Use of "getchar" function to get a single character as input
-
     char ch1;
-    printf("Enter a character 1 value ");
-    ch1 = getchar();
+    printf("Enter ch1 value: \n");
+
+    ch1 = getchar();                            // Use of "getchar" -- Single Character Input
     printf("%c",ch1);
-
-/*      Here, if entered more than one characters, then among them only a single 
-    character [the first character] will be printed to the console.
-*/
-
-
-
-    //printing the ASCII value of the entered character
-
-    char ch2;
-    printf("Enter a character 2 value ");
-    ch2 = getchar();
-  
-    printf("Its corresponding ASCII Value is %d\n",ch2); //---->>> formatted specifier is changed
+                           
+    printf("\nASCII Value of %c is %d",ch1,ch1);        // ASCII value of the entered character
     
-    getch();
+    return 0;
 }
