@@ -1,32 +1,30 @@
 #include<stdio.h>
-#include<ncurses.h>
+#include<conio.h>
 
 int main()
 {
-    printf("Printing of message\n");
-    printf("Hey there! How are you ?\n");
-
-    printf("\nPrinting values inteneded\n");
+    
     int a = 50;
-    printf("%d\n",a);
+    printf("%d \n",a);   //Printing values inteneded
 
-    printf("\nRight Justified Output in Integers: \n");
+    
     int b = 1123;
-    printf("%7d\n",b);
+    printf("%7d \n",b);  //Right Justified Output in Integers - Width of total 7 digits
 
-    printf("\nRight Justified Output in Floats: \n");
+
     float d = 112.348956;
-    printf("%8.3f",d);
-    printf(".");
+    printf("%10.2f \n",d);   // Right Justified Output in Floats -
+                                    // Width of total 10 digits
+                                    // 2 digits after the decimal point
+    
 
-    printf("\nLeft Justified Output in Integers: \n");
-    int c = 1123;
-    printf("%-7d",c);
-    printf(".");
+    int c = 1179;
+    printf("%-7d. \n",c);   // Left Justified Output in Integers  -- width of 7 digits are allocated to the character towards left
+     
 
-    printf("\nLeft Justified Output in Floats: \n");
+    
     float e = 112.389;
-    printf("%-8.2f",e);
-    printf(".");
+    printf("%-8.2f",e);  // Left Justified Output in Floats
+   
     return 0;
 }
