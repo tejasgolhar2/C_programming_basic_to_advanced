@@ -6,14 +6,16 @@ int main()
 
 	int* add = &a;
 	int** add2 = &add;
-	printf("The value at 'add' is %d\n", *add );
-	printf("The value at 'add2' is %d\n", **add2 );
-	printf("The address in 'add' is %X\n", add );
-	printf("The address in 'add2' is %X\n", add2 );
 
-	// Dereferencing Pointer to POinter
-	**add2 = 101;
+	printf("Value at 'add' is %d\n", *add );    	// Dereferencing
+	printf("Value at 'add2' is %d\n", **add2 );
 
-	printf("\nThe modified value at 'add2' is %d\n", **add2 );
+	printf("Address in 'add' is %X\n", add );		// Referencing
+	printf("Address in 'add2' is %X\n", add2 );
+
+	
+	**add2 = 101;									// Dereferencing Pointer to POinter
+
+	printf("\nValue at 'add2' is %d\n", **add2 );
 	return 0;
 }
