@@ -24,7 +24,8 @@ int main()
 /*
 
 At Line 15: Pointer is pointing to a non-existing memory location
-			Hence, Its a dangling pointer
+			Hence, Its a dangling pointer.
+			Try to accessing the pointer content which results -->> Segmentation Error
 
 At Line 17: Pointer is assigned a NULL value that doesn't points to any valid - object
 			The NULL Pointer is valid and is the valid solution for Dangling Pointer
