@@ -1,12 +1,8 @@
 #include<stdio.h>
 #include<conio.h>
 
-void function(int* A,int* B)				// Parameters OR Formal Parameters
-{
-	*A = 9;
-	*B = 10;
-	printf("The value of 'a' and 'b' is %d and %d \n", *A, *B);
-}
+void function(int* ,int* );				// Parameters OR Formal Parameters
+
 
 
 int main()
@@ -19,4 +15,11 @@ int main()
 	printf("The value of 'a' and 'b' is %d and %d \n", a, b);
 
 	return 0;
+}
+
+
+void function(int* m, int* n)
+{
+	*m = 15;
+	*n = 16;
 }
