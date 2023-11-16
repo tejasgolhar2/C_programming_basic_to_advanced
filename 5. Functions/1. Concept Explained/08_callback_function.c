@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include<conio.h>
 
+// Use of function pointers -->> CALLBACK FUNCTIONS
+
+// Passing function to a function ( via function pointers )
 
 void sum(int a,int b)
 {
@@ -18,6 +21,7 @@ void sub(int a,int b)
 void display(void (*ptr)(int, int))
 {
 	// function calling via dereferencing its address and passing arguments
+	// DOn't forget the syntax of "function pointer"
 
 	(*ptr)(5,1);
 }
@@ -32,5 +36,5 @@ int main()
 
 /* 
 	Calling a function 1 from 'main' and passing address of function 2 as argument with function 1
-		The parameter of function 1 being a function pointer, points to function 2 [ i.e., CALLBACK ]
+		The parameter of function 1 being a function pointer, points to function 2 [ i.e., CALLBACK FUNCTION ]
 */ 
