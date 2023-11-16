@@ -34,26 +34,13 @@ int main()
 
 	void (*fptr[4])(int, int) = {&sum, &diff, &mult, &div};
 	
-	while(true)
-	{
-		printf("Choose the operation: \n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n");
-		scanf("%d",&ch);
+	printf("Choose the operation: \n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n");
+	scanf("%d",&ch);
 
-		printf("Enter the variables: \n");
-		scanf("%d %d", &a,&b);
+	printf("Enter the variables: \n");
+	scanf("%d %d", &a,&b);
 
-		(*fptr[ch-1])(a, b);
-
-		char check;
-		printf("\nWant to perform operation again? \n(Y/N)\n");
-		scanf("%c",&check);
-		if(check=='N')
-		{
-			break;
-		}
-	}
-	
-
+	(*fptr[ch-1])(a, b);
 
 	return 0;
 }
