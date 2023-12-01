@@ -3,6 +3,9 @@
 // 	Store different datatype values as a single object
 //		Different data-types are grouped under single name
 
+// 			To create a structure means to create a template for data-type that can take differnt primitive data-type elements 
+
+
 struct student
 {
 	char name[];
@@ -10,7 +13,7 @@ struct student
 	float grade;
 
 	/*
-	
+
 	1. It should end with a semicolon
 	2. Within it, two variables cannot have same name
 	3. Individual structure member cannot be initialized
