@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 
-struct student				// Structure Declaration -- User Defined Datatype
+struct student						// Structure Declaration -- User Defined Datatype
 {
 	char name[15];
 	int roll_no;
@@ -11,7 +11,7 @@ struct student				// Structure Declaration -- User Defined Datatype
 
 int main()
 {
-	struct student S1;		// Object Initialization
+	struct student S1;				// Object Declaration
 	printf("Size of S1 : %d",sizeof(S1));
 	return 0;
 }
