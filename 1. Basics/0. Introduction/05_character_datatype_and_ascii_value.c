@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<ncurses.h>
+#include<conio.h>
 #include<limits.h>
 
 int main()
@@ -13,10 +13,7 @@ int main()
 
     printf("\nEnter a signed character below: ");
     scanf("%c", &a);
-    //printf("Enter any unsigned character below: ");
-    //scanf("%c", &f);
     printf("\nThe ASCII value of character you have entered is %d\n", a);
-    // printf("The ASCII value of character you have entered is %d\n", f);
     printf("The minimum value for a variable of type 'char' is %d\n", b);
     printf("The maximum value for a variable of type 'char' is %d\n", c);
     printf("The minimum value for a variable of type 'unsigned char' is %d\n", d);

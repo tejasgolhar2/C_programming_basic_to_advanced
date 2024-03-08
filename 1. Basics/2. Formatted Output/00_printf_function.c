@@ -13,9 +13,9 @@ int main()
 
 
     float d = 112.348956;
-    printf("%10.2f \n",d);   // Right Justified Output in Floats -
-                                    // Width of total 10 digits
-                                    // 2 digits after the decimal point
+    printf("%10.2f \n",d);      // Right Justified Output in Floats -
+                                // Width of total 10 digits
+                                // 2 digits after the decimal point
     
 
     int c = 1179;
