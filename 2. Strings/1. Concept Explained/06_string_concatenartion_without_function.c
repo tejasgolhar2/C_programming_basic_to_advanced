@@ -20,6 +20,6 @@ int main()
 	}
 
 	printf("The conacatenated string: %s\n",name);
-	puts(surname);
+	//puts(surname);
 	return 0;
 }

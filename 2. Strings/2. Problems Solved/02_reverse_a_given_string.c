@@ -20,7 +20,7 @@ int main()
 	gets(val2);
 
 
-	int w_len = strlen(val2)-1;
+	int w_len = strlen(val2)-1;			// Index value of last character
 
 	for(int i=0;i<w_len/2;i++)
 	{

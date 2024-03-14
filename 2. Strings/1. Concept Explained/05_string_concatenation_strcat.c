@@ -4,7 +4,7 @@
 
 int main()
 {
-	char name[30]="Tejas";
+	char name[30]="Tejas ";
 	char surname[30]="Golhar";
 
 	// Argument 1 - Destination and Argument 2 - Source

@@ -20,7 +20,7 @@ int main()
 	// APPROACH 2 : Using Loops
 	// The space character is not counted in the string
 	// The approach have a drawback that the checking for the null characters is done only upto the size of the string variable
-	//   which can be cumbesome with the use case of gets() within the program
+	//   which can be cumbersome with the use case of gets() within the program
 
 	int i = 0;
 	unsigned int cunt=0;
