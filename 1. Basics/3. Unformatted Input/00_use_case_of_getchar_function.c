@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-int main()
+void main()
 {
     char ch1;
     printf("Enter ch1 value: \n");
@@ -10,6 +10,4 @@ int main()
     printf("%c",ch1);
                            
     printf("\nASCII Value of %c is %d",ch1,ch1);        // ASCII value of the entered character
-    
-    return 0;
 }
