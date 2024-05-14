@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-void main()
+int main()
 {
     // Compile Time 2d array initialization
     //Approach 1
@@ -37,6 +37,18 @@ void main()
 
     // comment about the following initialization
     int array2d8 [][3] = {1,2,3,4};
-    
+
+/*
+    // Try printing any one of the above two dimentional array
+
+    for(int i=0;i<2;i++)
+    {
+        for(int j=0;j<4;j++)
+        {
+            printf("%d ",array2d5[i][j]);
+        }
+        printf("\n");
+    }
+*/   
     getch();
 }
