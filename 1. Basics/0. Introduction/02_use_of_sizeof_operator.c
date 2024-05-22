@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+#include <ncurses/ncurses.h>
 
 int main()
 {

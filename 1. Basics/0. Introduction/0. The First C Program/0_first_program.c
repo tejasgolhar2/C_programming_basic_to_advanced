@@ -6,7 +6,8 @@
 
 // Section 2: Header/ Link Section
 #include<stdio.h>
-#include<conio.h>
+#include<ncurses/ncurses.h>			// works in both Windows and Linux
+//#include<conio.h>
 
 // Section 3: Definition Section
 #define pi 3.14159265359

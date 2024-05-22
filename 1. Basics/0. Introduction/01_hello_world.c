@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <conio.h>
+#include <ncurses/ncurses.h>
 //alternative for conio.h in Linux --> ncurses.h
 
 int main()
 {
-    printf("\nGacchu is bacchhu");
+    printf("Gacchu is bacchhu");
     return 0;
 }

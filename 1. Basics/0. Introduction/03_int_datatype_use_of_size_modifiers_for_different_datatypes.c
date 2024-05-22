@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+#include <ncurses/ncurses.h>
 #include <limits.h>
 // this header file is helpful in determining the maximum and minimum value for any given data-type via use of special functions
 
