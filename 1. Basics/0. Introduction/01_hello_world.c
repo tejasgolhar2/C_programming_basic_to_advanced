@@ -4,6 +4,6 @@
 
 int main()
 {
-    printf("Gacchu is bacchhu");
+    printf("Hello World!");
     return 0;
 }
