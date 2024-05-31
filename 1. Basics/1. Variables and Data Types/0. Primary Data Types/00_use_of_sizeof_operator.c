@@ -1,14 +1,13 @@
 #include <stdio.h>
-#include <ncurses/ncurses.h>
 
 int main()
 {
-    printf("The size of integer for the machine is %lu bytes\n", sizeof(int));
-    printf("The size of long integer for the machine is %lu bytes\n", sizeof(long int));
-    printf("The size of long long integer for the machine is %lu bytes\n", sizeof(long long int));
-    printf("The size of short integer for the machine is %lu bytes\n", sizeof(short int));
-    printf("The size of float for the machine is %lu bytes\n", sizeof(float));
-    printf("The size of character for the machine is %lu bytes", sizeof(char));
+    printf("size of integer: %lu bytes\n", sizeof(int));
+    printf("size of long integer: %lu bytes\n", sizeof(long int));
+    printf("size of long long integer: %lu bytes\n", sizeof(long long int));
+    printf("size of short integer: %lu bytes\n", sizeof(short int));
+    printf("size of float: %lu bytes\n", sizeof(float));
+    printf("size of character: %lu bytes", sizeof(char));
 
     /*      The compiler is warning you that you may suffer a loss of precision.
         That is, the format specifier that you're using to print a sizeof, %d,

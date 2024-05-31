@@ -3,8 +3,7 @@
 
 int main()
 {
-    int a=5,b=10;
-    printf("%d %d", sizeof(a),b);
-
+    int b = 138;
+    printf("Character corresponding: %c",b);
 	return 0;
 }

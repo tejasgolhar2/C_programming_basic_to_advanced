@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ncurses/ncurses.h>
 #include <limits.h>
 
 int main()
