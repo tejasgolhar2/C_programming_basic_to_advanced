@@ -3,7 +3,9 @@
 
 int main()
 {
-    int b = 138;
-    printf("Character corresponding: %c",b);
+    char a,b;
+    a = -76;
+    b = ~(!a);
+    printf("%d",b);
 	return 0;
 }
