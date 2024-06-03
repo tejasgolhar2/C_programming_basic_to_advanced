@@ -13,6 +13,8 @@ int main()
     printf("\nEnter a signed character below: ");
     scanf("%c", &a);
     printf("\nASCII value of %c is %d\n", a, a);
+
+    //  RANGE OF CHARACTER
     printf("Minimum signed 'char' ASCII: %d\n", b);
     printf("Maximum signed 'char' ASCII: %d\n", c);
     printf("Minimum unsigned 'char' ASCII: %d\n", d);

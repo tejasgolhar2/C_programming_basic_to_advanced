@@ -2,19 +2,19 @@
 
 int main()
 {
-    printf("size of integer: %lu bytes\n", sizeof(int));
-    printf("size of long integer: %lu bytes\n", sizeof(long int));
-    printf("size of long long integer: %lu bytes\n", sizeof(long long int));
-    printf("size of short integer: %lu bytes\n", sizeof(short int));
-    printf("size of float: %lu bytes\n", sizeof(float));
-    printf("size of character: %lu bytes", sizeof(char));
+    printf("size of integer: %zu bytes\n", sizeof(int));
+    printf("size of long integer: %d bytes\n", sizeof(long int));
+    printf("size of long long integer: %d bytes\n", sizeof(long long int));
+    printf("size of short integer: %d bytes\n", sizeof(short int));
+    printf("size of float: %d bytes\n", sizeof(float));
+    printf("size of character: %d bytes", sizeof(char));
 
-    /*      The compiler is warning you that you may suffer a loss of precision.
-        That is, the format specifier that you're using to print a sizeof, %d,
-        is not capable of printing the full range of size_t. Change %d to %zu and your warning will go away.
+    /*      For %d, WARNING :  You may suffer a loss of precision.
+        %d : Not capable of printing the full range of size_t. 
+            Doesn't work in linux because of precision limitation
 
-        NOTE : The format specifier %d may works for windows but not for linux because of the precision limitation 
-        of %d
+        %zu : Change %d to %zu and your warning will go away.
+
     */
     return 0;
 }
