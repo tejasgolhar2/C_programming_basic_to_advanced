@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <conio.h> 
+#include<conio.h>
+
 // For getch() - This header may be specific to certain compilers/IDEs (e.g., Turbo C)
 
 int main() {

@@ -1,11 +1,11 @@
 #include<stdio.h>
-#include<conio.h>
+#include<ncurses/ncurses.h>
 
 int main()
 {
     
     int a = 50;
-    printf("%d \n",a);   //Printing values inteneded
+    printf("%d \n",a);   //Printing values intended
 
     
     int b = 1123;

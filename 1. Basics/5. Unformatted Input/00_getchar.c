@@ -1,7 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
+#include<ncurses/ncurses.h>
 
-void main()
+int main()
 {
     char ch1;
     printf("Enter ch1 value: \n");
