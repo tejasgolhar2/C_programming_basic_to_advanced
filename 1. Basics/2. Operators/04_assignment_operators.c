@@ -12,7 +12,7 @@ int main()
 	e = 4;
 	f = 10;
 	g = 20;
-	h = 15;
+	h = 15;	
 
 	c = a;		// assignment
 	d += a;		// addition : d = d + a; FIRST ADD THEN ASSIGN
@@ -25,3 +25,5 @@ int main()
 
 	return 0;
 }
+
+/* Associativity Order:  >>=  <<=  |=  ^=  &=  %=  /=  *=  -=  +=  =  */ 

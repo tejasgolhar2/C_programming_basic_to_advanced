@@ -2,7 +2,6 @@
 
 int main()
 {
-    // Unary Operators ()
 
 	int a, b;
 	int c,d,e,f,g,h;
@@ -19,9 +18,16 @@ int main()
 	printf("Pre-increment : %d\nPre-decrement: %d\nPost-increment: %d\nPost-decrement: %d", d,e,f,g);
 
 
-	// Ternary Operator / Conditional Operators
-
-	h = a ? printf("a is non-zero") : printf("a is zero");
-
 	return 0;
 }
+
+    /* Unary Operators (6)
+    
+
+		1. Unary minus ( – )
+		2. Increment ( ++ )
+		3. Decrement ( — )
+		4. NOT ( ! )
+		5. Addressof operator ( & )
+		6. sizeof()
+	*/
