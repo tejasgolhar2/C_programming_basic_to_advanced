@@ -9,7 +9,7 @@ int main()
 	printf("Value at p : %d\n",*p);
 
 	p = p + 3;					// Adding integer to address 
-								// New Address = base address + interger * sizeof(int)
+								// New Address = base address + integer * sizeof(int)
 	printf("Value at p : %d",*p);
 	return 0;
 }

@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 
 int main()
 {
@@ -14,8 +13,8 @@ int main()
 /*
 
 Null Pointer
-		An unintialized pointer which on dereferencing may result a garbage value or show undefined behavior
-To prevent the above issue, the declared pointer is assigned a value "NULL" or 0.
+		An unintialized pointer on dereferencing may result a garbage value or show undefined behavior
+	To prevent this, the declared pointer is assigned a value "NULL" or 0.
 	
 It doesnt point to any valid object
 

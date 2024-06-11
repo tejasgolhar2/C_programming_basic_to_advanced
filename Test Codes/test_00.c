@@ -1,11 +1,9 @@
 #include<stdio.h>
-#include<ncurses/ncurses.h>
 
 int main()
 {
-    char a,b;
-    a = -76;
-    b = ~(!a);
-    printf("%d",b);
+    int a = 7;
+    int *p = NULL;
+    printf("%d",p);
 	return 0;
 }

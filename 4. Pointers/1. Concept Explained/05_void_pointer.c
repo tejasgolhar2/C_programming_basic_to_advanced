@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 
 int main()
 {
@@ -8,16 +7,16 @@ int main()
 	float b = 11.2;
 	char d = 'e';
 
-	void* p;  	// Declaration of a Void Pointer
+	void* p;  	// Declaration
 
-	p = &a;		// Pointer Initialization
+	p = &a;		// Initialization
 	printf("Address in p : %X\n", p);
 
 	
-	// printf("Value at p : %d\n", *p);   			// Results Error
+	// printf("Value at p : %d\n", *p);   			// Dereferencing
+													// Results Error
 
-
-	printf("Value at p : %5d\n", *(int*)p );		// Typecasting of Void Pointer for Dereferencing 
+	printf("Value at p : %5d\n", *(int*)p );		// Typecasting for Dereferencing 
 
 
 	void* q = &b;
@@ -30,9 +29,9 @@ int main()
 
 }
 
-// Void : Having no associated datatype. It can store the address of any datatype value 
+// Void : 	Having no associated datatype. It can store the address of any datatype value 
+// 			Void pointer cannot be directly dereferenced
+// 			A void pointer needs to be typecasted before dereferencing
 
-// Void pointer cannot be directly dereferenced
-// A void pointer needs to be typecasted before dereferencing
-
-// Advantage: Rather than intializing separate pointer as per datatype, the void pointer can be initialized and accessed accordingly.
+// Advantage: 	Rather than intializing separate pointer as per datatype, 
+//				the void pointer can be initialized and accessed accordingly.
