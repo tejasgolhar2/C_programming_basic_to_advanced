@@ -27,3 +27,5 @@ int main()
 
     return 0;
 }
+
+//NOTE: We cannot perform Bitwise and Modulus (%) operation on float datatypes

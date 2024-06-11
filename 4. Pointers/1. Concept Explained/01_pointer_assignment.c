@@ -4,7 +4,7 @@
 int main()
 {
 	int a=10,b=9;
-	int *p,*q;
+	int *p,*q;			// p and q got capacity to store address values
 
 	p = &a;
 	q= &b;

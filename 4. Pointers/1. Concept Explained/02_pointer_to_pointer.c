@@ -3,31 +3,34 @@
 int main()
 {
 	// Pointer to Pointer
-	//   Its a variable capable of string the address of another pointer which may be a value pointer or a pointer to pointer
+	//   Variable that can store the address of another pointer which may be a value pointer or a pointer to pointer
 
 	int a = 5;
-	printf("The address of 'a' in memory %X\n", &a );
+	printf("Address of 'a': %X\n", &a );
 
-	int* add = &a;
+	int* m = &a;
 
 	// Referencing
-	printf("The address at 'add' is %X\n", add );  
+	printf("Address stored in 'm': %X\n", m );  
 
 	// Dereferencing
-	printf("The value stored by address at 'add'  is %d\n", *add );  
+	printf("Value stored at address in 'm'  is %d\n", *m );  
 
 
 
 	// Pointer to Pointer
-	// I want to store the adress of a pointer variable into another variable
+	// We want to store the adress of a pointer variable into another variable
 
-	int** add2 = &add;
+	int** n = &m;
 
-	// Referencing -- Directing to the address where another address is stored
-	printf("The address at 'add2' is %X and %X\n", &add, add2 );  
+	// Referencing - 'n' stores address of 'm'
+	printf("\nAddress stored in 'n' is %X\n", n);  
 
-	// Dereferencing -- Getting the value stored at the address stored by Pointer to POinter Variable
-	printf("The value present at the address 'add2' is %d\n", **add2 );
+	// Dereferencing - value at address stored by 'n' = 'm' = &a
+	printf("Value stored at address in 'n'  is %X\n", *n ); 
+
+	// Dereferencing - value at address stored in 'm' = 'a'
+	printf("Value stored by double pointer 'n': %d\n", **n);
 
 	return 0;
 }
