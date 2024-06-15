@@ -1,9 +1,10 @@
 #include<stdio.h>
+#include<string.h>
 
 int main()
 {
-    int a = 7;
-    int *p = NULL;
-    printf("%d",p);
+    char name[] = "tejas";
+    int len = strlen(name);
+    printf("Length: %d", len);
 	return 0;
 }

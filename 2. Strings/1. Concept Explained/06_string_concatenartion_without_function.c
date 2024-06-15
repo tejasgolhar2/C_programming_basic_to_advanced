@@ -1,12 +1,11 @@
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 
 int main()
 {
 	int name_len,surname_len;
 
-	char name[30]="Tejas";
+	char name[30]="Tejas ";
 	char surname[30]="Golhar";
 
 	

@@ -1,20 +1,19 @@
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 
 int main()
 {
-	char name[30]="Tejas ";
-	char surname[30]="Golhar";
+	char name[8]="Tejas ";
+	char surname[8]="Golhar";
 
 	// Argument 1 - Destination and Argument 2 - Source
 	// The function returns the pointer to the destination string
-	strcat(name,surname);
+	strcat(name, surname);
 
 	// After the use of the function, the respective changes have been done
 	// Let's see what happened
 
-	printf("%s",name);  
+	printf("%s", name);  
 	return 0;
 }
 

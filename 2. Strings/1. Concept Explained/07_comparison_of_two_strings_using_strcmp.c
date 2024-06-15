@@ -38,5 +38,8 @@ int main()
 	{
 		printf("The 1st string's ASCII is found lesser than that of 2nd's correspoding character\n");
 	}
+
+	printf("Result of 'strcmp' : %d", val);
+
 	return 0;
 }

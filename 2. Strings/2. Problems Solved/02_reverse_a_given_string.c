@@ -16,11 +16,11 @@ int main()
 
 	// Approach 2: By usig algorithm
 	char val2[20];
-	printf("\nEnter the value of a string varible:\n");
+	printf("\nEnter the value of a string variable:\n");
 	gets(val2);
 
 
-	int w_len = strlen(val2)-1;			// Index value of last character
+	int w_len = strlen(val2)-1;			// INDEX VALUE of last character
 
 	for(int i=0;i<w_len/2;i++)
 	{
