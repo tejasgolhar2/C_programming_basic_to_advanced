@@ -1,25 +1,33 @@
 #include<stdio.h>
-#include<conio.h>
 
-void function(int* ,int* );				// Parameters OR Formal Parameters
+void function(int* ,int* );				// Temporary storage for passed addresses
 
 
 
 int main()
 {
-	int a = 5;
-	int b = 6;
+	int a = 15;
+	int b = 16;
 
-	function(&a, &b);						// Arguments OR Actual Parameters
+	printf("Before: 'a' & 'b' -> %d and %d\n", a, b);
 
-	printf("The value of 'a' and 'b' is %d and %d \n", a, b);
+	function(&a, &b);					// Addresses of actual values passed
+
+	printf("After:  'a' & 'b' -> %d and %d\n", a, b);
 
 	return 0;
 }
 
 
-void function(int* m, int* n)				// The address in function call is stored in Pointer Variable
+void function(int* m, int* n)			// The address in function call is stored in Pointer Variable
 {
-	*m = 15;
-	*n = 16;
+	*m = 16;				// Change values by dereferencing	
+	*n = 15;
 }
+
+
+// Address of values is passed as arguments
+// Arguments and Parameters are stored at different memory locations
+// 		But, Parameters --> Pointers to Arguments
+
+// Change in Parameters --> Change in Arguments (actual values)  
