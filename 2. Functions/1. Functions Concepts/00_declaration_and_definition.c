@@ -3,7 +3,7 @@
 // FUNCTION DECLARATION
 
 void sum(void);			
-// Parameter name is optional here
+// Parameter name is optional here / datatype is mandatory
 // It ends with semicolon
 
 
@@ -12,7 +12,7 @@ int main()
 	// FUNCTION CALL
 
 	sum();
-	// DONT mention function return_type and datatype of arguments	
+	// DON'T mention function return_type and datatype of arguments	
 
 	return 0;
 }
@@ -29,4 +29,4 @@ void sum(void)
 
 	printf("The sum of %d and %d : %d",a,b,a+b);
 }
-// Parameter name is compulsory here
+// Parameter name is compulsory along with datatype
