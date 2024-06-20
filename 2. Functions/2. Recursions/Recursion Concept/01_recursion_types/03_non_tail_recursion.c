@@ -11,11 +11,9 @@ int main()
 
 void fun(int a)
 {
-	if (a==0)
-	{
+	if (a== 0)
 		return;
-	}
-	
+
 	fun(a-1);			// Evaluation left after this line.
 	printf("%d ", a);
 }

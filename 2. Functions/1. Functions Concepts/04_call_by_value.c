@@ -24,3 +24,6 @@ int main()
 // Arguments and Parameters are stored at different memory locations
 
 // Change in Parameters --> No change in Arguments (actual values)  
+
+// 	NOTE: IN C, function parameters are always PASSED by value. 
+//		PASS BY REFERENCE CAN BE SIMULATED BY EXPLICITLY PASSING POINTER VALUE. 
