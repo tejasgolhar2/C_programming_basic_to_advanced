@@ -29,7 +29,7 @@ int main()
 // 	Lifetime:		Within block/function of declaration.
 //	Location:		CPU Registers ( initialised + uninitialised condition )
 
-
+//  The only storage-class specifier that shall occur in a parameter declaration is register
 
 //  Bypass the switching between RAM and Processor -->> Increase Execution Efficiency
     

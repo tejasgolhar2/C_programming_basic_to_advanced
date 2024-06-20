@@ -28,3 +28,5 @@ int main()
 //	Scope:			Both Local and Global Declaration	
 // 	Lifetime:		Till end of the program
 //	Location:		RAM ( initialised + uninitialised condition )
+
+// 	In C, static variables can only be initialized using constant literals. 
