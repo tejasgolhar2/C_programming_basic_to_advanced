@@ -6,7 +6,7 @@ int main()
 	printf("Enter number of array elements: ");
 	scanf("%d", &n);
 
-    int array[n];					// user defined -> variable length arrray
+    int array[n];					// user defined -> variable length arrray [VLA]
 
     printf("Enter the elements of 1st array: \n");
     for (int i = 0; i < n; i++)
@@ -17,7 +17,7 @@ int main()
     printf("Array Elements: \n");
     for (int i = 0; i < n; i++)
     {
-        printf("%d\n", array[i]);
+        printf("%d ", array[i]);
     }
 
     return 0;

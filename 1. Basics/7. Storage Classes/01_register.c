@@ -4,15 +4,15 @@
 
 int main()
 {
-	register int a;
+	register int a;                 //  Garbage Value
     register int b = 34;
 
 
-    printf("%d\n", a);              //  Garbage Value
+    printf("%d\n", a);              
 
     {
-        register int b;
-        printf("%d\n", b);          // On re-declaration -> Garbage Value -- NOT ZERO
+        register int b;             // On re-declaration -> Garbage Value -- NOT ZERO
+        printf("%d\n", b);          
     }
 
     printf("%d\n", b);

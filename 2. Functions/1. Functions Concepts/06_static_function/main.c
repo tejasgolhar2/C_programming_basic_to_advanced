@@ -8,10 +8,11 @@ int main()
 	int sum = fun (3, 4); 
 	// fun() can be accessed globally.
 
-//	fun2();				
-	// fun2() cannot be accessed being STATIC --> Undefined Reference to fun2 - ERROR
-
 	printf("%d", sum); 
+
+//	fun2();				
+	// fun2() not accessible being STATIC --> Undefined Reference to fun2 - COMPILE ERROR
+
 	return 0;
 }
 

@@ -4,7 +4,7 @@ static int a = 5;			// Local + Global declaration allowed
 
 int main()
 {
-	static int b;			// ZERO DEFAULT VALUE
+	static int b;			// ZERO -> DEFAULT VALUE
 	static int c = 5;
 
    	printf("%d\n", a);

@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 
 int main()
 {
@@ -16,13 +15,12 @@ int main()
         {2,2,2}
     };
 
-    //all elements will be initialized with Zero
+    
     int array2d4 [5][6] = {0};
+    //     All zero elements
     
 
-    //      When all values are not initialized
-    //  the rest elements of the array will be Zero
-
+    // Elements excepts initialized are ZERO
     // Approach 1
     int array2d5 [2][4] = {0,1,2,3,4};
 
@@ -33,22 +31,22 @@ int main()
 
     // When the row number is not metioned
     int array2d7 [][3] = {0};
-    // Here, only one row conatining zeroes equal to the number of columns will get stored
+    // Only one row conatining zeroes equal to the column number
 
     // comment about the following initialization
     int array2d8 [][3] = {1,2,3,4};
 
-/*
-    // Try printing any one of the above two dimentional array
 
+    // Try printing any one of the above two dimentional array
+/*
     for(int i=0;i<2;i++)
     {
-        for(int j=0;j<4;j++)
+        for(int j=0;j<3;j++)
         {
-            printf("%d ",array2d5[i][j]);
+            printf("%d ",array2d8[i][j]);
         }
         printf("\n");
     }
-*/   
-    getch();
+*/
+    return 0;
 }

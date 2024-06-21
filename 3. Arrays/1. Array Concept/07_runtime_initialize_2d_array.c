@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 
 #define row 2
 #define column 2

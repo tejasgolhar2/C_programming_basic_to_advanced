@@ -20,6 +20,7 @@ int main()
 
 // FUNCTION DEFINITION
 
+// Parameter name is compulsory along with datatype
 void sum(void)			
 {
 	int a,b;
@@ -29,4 +30,3 @@ void sum(void)
 
 	printf("The sum of %d and %d : %d",a,b,a+b);
 }
-// Parameter name is compulsory along with datatype

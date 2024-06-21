@@ -1,11 +1,12 @@
 #include<stdio.h>
 
-int k;
+int k;						// Default Value - ZERO
 //auto int x = 10;			// Global scope not allowed for 'auto' - ERROR
 
 int main()
 {
-	auto int a;
+	auto int a;				// Default Value - Garbage
+	
 //	auto int a;				//	Re-declaration / definition is not allowed
 	int b = 20;				// A variable having nothing ahead of name is 'auto' by default
 	int c = 30;
@@ -18,14 +19,15 @@ int main()
     	printf("%d\n", b);	
 
 
-		int c;
-		printf("%d\n", c);	//	On re-declaration --> ZERO
+		int c;				//	On re-declaration --> ZERO
+		printf("%d\n", c);	
     }
 
+	printf("%d\n", a);
     printf("%d\n", b);
     printf("%d\n", c);
 
-	printf("%d\n", k);		// 	Uninitialised global auto var --> ZERO
+	printf("%d\n", k);		
 
 	return 0;
 }

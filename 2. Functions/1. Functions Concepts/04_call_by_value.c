@@ -4,7 +4,7 @@ void function(int a,int b)		// Temporary storage for the passed values
 {
 	a = 9;
 	b = 10;
-	printf("The value of 'a' and 'b' is %d and %d \n", a, b);
+	printf("Function Call: \n'a': %d\n'b': %d\n", a, b);
 }
 
 
@@ -15,7 +15,7 @@ int main()
 
 	function(a,b);				// Actual values passed (NOT ADDRESSES)
 
-	printf("The value of 'a' and 'b' is %d and %d \n", a, b);
+	printf("Main Call: \n'a': %d\n'b': %d\n", a, b);
 
 	return 0;
 }

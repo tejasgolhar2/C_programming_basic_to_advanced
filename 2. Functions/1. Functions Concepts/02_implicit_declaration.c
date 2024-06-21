@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-// Define function after Main -> Implicit Declaration --> ERROR
+// Define function after Main -> Implicit Declaration --> COMPILE ERROR
 
 int main()
 {

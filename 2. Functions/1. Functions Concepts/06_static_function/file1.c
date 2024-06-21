@@ -3,15 +3,13 @@
 int fun(int a, int b)		
 // NON-STATIC FUNCTION -> Global access
 {
-	int c;
-	c = a + b;
-	return c;
+	return a+b;
 }
 
 static void fun2(void)	
 // STATIC FUNCTION -> Local Access	
 {
-	printf("\nThis is a file restricted function call");
+	printf("\nThis is a call of static function");
 }
 
 

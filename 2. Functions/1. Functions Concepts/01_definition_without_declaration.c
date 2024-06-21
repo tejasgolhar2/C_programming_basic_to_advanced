@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-// Define function before the main()
+// Define function before the main() to prevent declaration
 
 char fun()
 {

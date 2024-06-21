@@ -3,7 +3,7 @@
 int main()
 {
     int array[5];
-    // An array having size to accomodate 5 integer values in it
+    
 
     printf("Enter the array elements:\n");
 

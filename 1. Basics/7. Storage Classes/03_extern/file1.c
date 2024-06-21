@@ -2,4 +2,4 @@
 
 int a = 55;
 
-int c = 2;
+//int c = 2;

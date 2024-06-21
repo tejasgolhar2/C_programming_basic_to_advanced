@@ -30,6 +30,7 @@ int main()
 
 
 // FOR array elements less than length, rest locations are filled with ZEROES
+
 // ARRAY WITH ALL ZEROS ->		arr[10] = {0};
 // NOT ALLOWED			->		arr[10] = {}; 
 

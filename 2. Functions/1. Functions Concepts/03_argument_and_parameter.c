@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int function(int , int);
-// Parameters - variables in declaration
+// Parameters - FORMAL PARAMETERS - variables in declaration
 
 int main()
 {
@@ -10,14 +10,14 @@ int main()
     scanf("%d %d", &m, &n);
 
     prod = function(m, n);
-    // Arguments - actual passed PARAMETERS to function
+    // Arguments - ACTUAL PARAMETERS - actually passed 
 
     printf("Product: %d", prod);
 	return 0;
 }
 
 int function(int a, int b)
-// Parameters - variables in definition
+// Parameters - FORMAL PARAMETERS - variables in definition
 
 {
 	return a+b;

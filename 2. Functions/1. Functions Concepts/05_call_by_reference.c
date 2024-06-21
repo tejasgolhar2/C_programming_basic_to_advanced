@@ -19,9 +19,9 @@ int main()
 }
 
 
-void function(int* m, int* n)			// The address in function call is stored in Pointer Variable
+void function(int* m, int* n)			// Pointer Variables to store addresses
 {
-	*m = 16;				// Change values by dereferencing	
+	*m = 16;							// Change values by dereferencing	
 	*n = 15;
 }
 
