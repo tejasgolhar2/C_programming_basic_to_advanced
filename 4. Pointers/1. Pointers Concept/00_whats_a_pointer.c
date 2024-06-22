@@ -4,16 +4,18 @@ int main()
 {
 	int a=1,b=2;
 
-	//Pointer Declaration - It declares that the p variable stores the address of an integer variable
-	int *p;
+	int *p;			// Pointer to an integer variable
 
 	//Pointer Initialization
 	int *q = &b;
 
+
 	// X is used to print a hexadecimal value
-	printf("Address in Hexadecimal: %X\n",q);
+	printf("Address in Hexadecimal: %p\n",q);
 
 	// u is used to print unsigned integral decimal value
 	printf("Address in Decimal: %u",q);
 	return 0;
 }
+
+//	'%p','%X','%x'	->	Format specifier to get address in hexadecimal
