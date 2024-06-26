@@ -3,7 +3,7 @@
 
 int main()
 {
-	char *ptr = "Hello World";
+	char *ptr = "Hello";
 	printf("%d\n", strlen(ptr));    
 
 	return 0;
