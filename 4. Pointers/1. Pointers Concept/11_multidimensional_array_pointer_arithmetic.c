@@ -7,5 +7,11 @@ int main()
     //	ACCESS '7' USING POINTERS
 
     printf("%d\n",**(*(a+1)+1) );
+
+    //  a+1             -> 2nd 2D array
+    //  *(a+1)+1        -> 2nd 1D array in 2nd 2D array
+    //  *(*(a+1)+1)     -> 1st element of 2nd 1D array in 2nd 2D array
+
+
 	return 0;
 }

@@ -8,7 +8,7 @@ int main()
 
 	int *p = NULL;
 
-	//	Approach 2
+	//	Approach ROW2					//	Single For Loop
 	for(p = &array[0][0]; p <= &array[1][1]; p++)
 	{
 		printf("%d ", *p);
@@ -18,7 +18,7 @@ int main()
 	//	Appraoch 1
 	/*
 
-	for(int i=0; i<2; i++)				//	Single For Loop
+	for(int i=0; i<2; i++)				//	Double For Loop
 	{
 		for(int j =0; j<2; j++)
 		{
