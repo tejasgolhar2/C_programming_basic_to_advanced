@@ -1,12 +1,17 @@
-#include <stdio.h>
+#include<stdio.h>
+
+struct employee
+{
+  char batch;
+  int employeeId;
+  float shift;
+};
+
 int main()
 {
-  int a[][3] = {1, 2, 3, 4, 5, 6};
+    struct employee e1;
 
-  int (*ptr)[3] = a;
-  printf("%d %d ", (*ptr) [1], (*ptr)[2]);
-  ++ptr;
-  
-  printf("%d %d", (*ptr) [1], (*ptr)[2]);
+    printf("sizeof(e1): %d\n", sizeof(e1));
+
   return 0;
 }

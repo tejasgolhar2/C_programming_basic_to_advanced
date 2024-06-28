@@ -3,17 +3,18 @@
 int main()
 {
     int array[6] = {1, 2, 3, 4, 5, 6};
+
+    //  Approach 1
     int *p = array;							//	ARRAY NAME == array[0]
+    printf("array[0] = %p\n", p);
 
-    printf("Using Pointer = %p\n", p);
-    printf("Using array Name = %p\n", array);
 
-    printf("Pointer Comparison: %d\n", p == array);
+    //  Approach 2
+    int (*ptr)[10];                         //--->  array of integers
 
-    *array = 20;
-    printf("%d\n", array[0]);
+    //	int *ptr[10];		                //--->  array of integer pointers
 
-    //	++array;		-->		NOT ALLOWED	
+
 
 	return 0;
 }
