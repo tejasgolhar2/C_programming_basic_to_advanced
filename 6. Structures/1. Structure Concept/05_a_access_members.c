@@ -10,7 +10,7 @@ struct car
 int main()
 {
 
-    c1.fuelTank = 30;					//	Use of (.) operator of member access
+    c1.fuelTank = 30;							//	Use of (.) operator of member access
 
     printf("Car Fuel Tank: %d\n", c1.fuelTank);
 

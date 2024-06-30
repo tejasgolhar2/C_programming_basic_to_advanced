@@ -22,7 +22,7 @@ int main()
 //	CPU accesses one word at a time.
 //	It stores the members such that, processor can access complete value of member in one CPU Cycle.
 //	This forces the compiler to store the members in "word" fashion in memory for member access in single cycle.
-//	This arrangement involves creation of empty spaces in between the two members stored in memory.
+//	This arrangement involves creation of empty spaces in between the two members stored in memory  -->  PADDING
 
 //	NOTE
 //	1. Any data type will always store its value at the address which is multiple of the size of that data type.
