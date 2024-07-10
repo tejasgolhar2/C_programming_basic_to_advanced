@@ -35,4 +35,4 @@ int fun2(int b)
 //	If not found, then searching its calling function and if still not found then
 //	the function which called that calling function will be searched and so on.
 
-// Perl supports both static and dynamic scoping using 'local' and 'my' keywords
+// 	Perl supports both static and dynamic scoping using 'local' and 'my' keywords
