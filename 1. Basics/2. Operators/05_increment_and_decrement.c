@@ -26,7 +26,7 @@ int main()
 
 		1. Unary minus ( – )
 		2. Increment ( ++ )
-		3. Decrement ( — )
+		3. Decrement ( -- )
 		4. NOT ( ! )
 		5. Addressof operator ( & )
 		6. sizeof()

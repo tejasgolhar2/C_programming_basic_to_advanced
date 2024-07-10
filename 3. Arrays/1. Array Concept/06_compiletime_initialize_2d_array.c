@@ -29,7 +29,7 @@ int main()
     //  the elements in the brace only will get passed to the respective row, rest elements will be zero
 
 
-    // When the row number is not metioned
+    // When the row number is not mentioned
     int array2d7 [][3] = {0};
     // Only one row conatining zeroes equal to the column number
 

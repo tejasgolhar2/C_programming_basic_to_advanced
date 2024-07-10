@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ncurses/ncurses.h>
 //alternative for conio.h in Linux --> ncurses.h
 
 int main()

@@ -10,10 +10,9 @@ int main()
 
     // PREVENTION 2 - UPDATE VALUE
 
-   *a = 15;				//	SEGMENTATION FAULT
+   *a = 15;				//	SEGMENTATION FAULT    ->      When program tried to access illegal memory location
 
 	return 0;
 }
 
 //	THE POINTER HERE IS WILD
-//	SEGMENTATION FAULT 		-> 		When program tried to access illegal memory location

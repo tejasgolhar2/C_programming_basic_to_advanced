@@ -38,11 +38,11 @@ int main()
     
     printf("Enter the value of float 'f': ");
     scanf("%4f",&f);                //specifying the width of digits in FLOAT
-    printf("%f \n",f); 
+    printf("%f\n",f); 
     
     printf("Enter the value of float 'h': ");
     scanf("%5f",&h);
-    printf("%f ",h);
+    printf("%f\n",h);
 
     return 0;
 }

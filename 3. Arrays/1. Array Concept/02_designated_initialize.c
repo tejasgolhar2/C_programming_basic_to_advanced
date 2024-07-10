@@ -4,7 +4,7 @@
 
 int main()
 {
-    // WHEN ONLY FEW ELEMENTS ARE NON-ZERO IN AN ARRAY TO BE INITIALIZED
+    // WHEN ONLY FEW ELEMENTS ARE NON-ZERO
 
 	// Approach 1
     int arr1[N] = { 1, 0, 0, 0, 0, 2, 3, 0, 0, 0};

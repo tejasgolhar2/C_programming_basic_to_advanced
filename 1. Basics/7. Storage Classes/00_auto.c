@@ -1,14 +1,17 @@
 #include<stdio.h>
 
-int k;						// Default Value - ZERO
-//auto int x = 10;			// Global scope not allowed for 'auto' - ERROR
+int k;						// 	Default Value - ZERO
+//	auto int x = 10;			
+							//	auto	-->		automatic storage duration 
+							//	global variables inherently possess static storage duration
+							//	Global scope not allowed for 'auto' - ERROR
 
 int main()
 {
-	auto int a;				// Default Value - Garbage
+	auto int a;				// 	Default Value - Garbage
 	
 //	auto int a;				//	Re-declaration / definition is not allowed
-	int b = 20;				// A variable having nothing ahead of name is 'auto' by default
+	int b = 20;				// 	A variable having nothing ahead of name is 'auto' by default
 	int c = 30;
 
 	printf("%d\n", a);		
@@ -31,7 +34,6 @@ int main()
 
 	return 0;
 }
-
 
 
 // Aspects of a variable to be considered in a c program:

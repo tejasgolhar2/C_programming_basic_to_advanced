@@ -2,7 +2,7 @@
 
 int main()
 {
-	int a=1,b=2;
+	int a=1, b=2;
 
 	int *p;			// Pointer to an integer variable
 
@@ -10,7 +10,7 @@ int main()
 	int *q = &b;
 
 
-	// X is used to print a hexadecimal value
+	// X/x/p is used to print a hexadecimal value
 	printf("Address in Hexadecimal: %p\n",q);
 
 	// u is used to print unsigned integral decimal value

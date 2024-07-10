@@ -34,8 +34,6 @@ int main()
 //  Bypass the switching between RAM and Processor -->> Increase Execution Efficiency
     
 //  Used for frequently used local variables only like in counters, loops, etc.
-   
-//  Register variables should as less as possible.
 
 //  Not accessible using Pointers 
 

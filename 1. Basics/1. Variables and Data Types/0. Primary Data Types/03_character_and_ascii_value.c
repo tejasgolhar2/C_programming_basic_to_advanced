@@ -7,7 +7,7 @@ int main()
     //unsigned char f;
     char b = CHAR_MIN;
     char c = CHAR_MAX;
-    unsigned char d = 0;  // minimum unsigned value is Zero
+    unsigned char d = 0;    // minimum unsigned value is Zero
     unsigned char e = UCHAR_MAX;
 
     printf("\nEnter a signed character below: ");

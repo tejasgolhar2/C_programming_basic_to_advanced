@@ -9,7 +9,7 @@ int main()
     
     ch = getchar();   // Single character input
    
-    //printf("Entered character is %c",ch);
+    //  printf("Entered character is %c",ch);
 
     //  Rather than using the printf function, we will use unformatted output function named "putchar"
     
@@ -22,6 +22,8 @@ int main()
 
    
 }
+
+//  putchar :  belongs to "stdio.h" header
 
 //  NOTE:       We can't pass string values here; except a single character value. 
 //          for variable having more than one character to be given as a parameter will result into an error

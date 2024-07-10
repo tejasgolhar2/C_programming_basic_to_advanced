@@ -12,7 +12,7 @@ int main()
     printf("Address stored by Pointer: %X\n", a);
 
 
-    *a = 20;					//	CHANGE POINTED VALUE
+    *a = 20;					//	DEREFERENCE OPERATOR
 
     printf("Value at Pointer Location: %d\n", *a);
 

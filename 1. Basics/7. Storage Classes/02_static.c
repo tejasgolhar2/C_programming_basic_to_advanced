@@ -1,11 +1,13 @@
 #include<stdio.h>
 
-static int a = 5;			// Local + Global declaration allowed
+static int a = 5;			// 	Local + Global declaration allowed
+							//	Scope limited to the file only
+							//	global variables inherently possess static storage duration
 
 int main()
 {
 	static int b;			// ZERO -> DEFAULT VALUE
-	static int c = 5;
+	static int c = 5;		//	Lifetime till PROGRAM DURATION
 
    	printf("%d\n", a);
 	printf("%d\n", b);

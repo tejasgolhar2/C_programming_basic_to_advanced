@@ -16,3 +16,5 @@ void main()
 
     getch();                //used to hold the output onto the console window
 }
+
+//  putch   :  belongs to "conio.h" header
