@@ -4,22 +4,15 @@
 
 int main()
 {
-	
-	//	Pointer to First Array Element
 
-	int a1[5] = {0};
-
-	int *p = a1;				// p is a pointer to base address of the array	-> 	1st array element
-
-	printf("%p\n", p);
-
-
+	int a1[5] = { 5, 4, 3, 2, 1};
 
 	//	Pointer to an Entire Array
 
 	int (*q) [5] = &a1;			// q is an integer pointer to 5 elements		-> 	Entire array
 
 	printf("%p\n", q);
+	printf("%d\n", *(*q));
 
 	return 0;
 }

@@ -4,17 +4,10 @@ int main()
 {
     int array[6] = {1, 2, 3, 4, 5, 6};
 
-    //  Approach 1
-    int *p = array;							//	ARRAY NAME == array[0]
-    printf("array[0] = %p\n", p);
-
-
-    //  Approach 2
-    int (*ptr)[10];                         //--->  array of integers
-
-    //	int *ptr[10];		                //--->  array of integer pointers
-
-
+    //  Pointer to 1st Array element
+    int *p = array;							
+    
+    printf("%d\n", *p);                         //  'p' points to 0th index of array
 
 	return 0;
 }
@@ -24,3 +17,9 @@ int main()
 //	Array name is the pointer to the 0th index value of array.
 
 //	Array name -> Pointer to 0th Index  ->	CANT ASSIGN A NEW ADDRESS	-> 	ERROR
+
+    //  Pointer to Entire Array
+    int (*ptr)[10];   
+
+    printf("%d\n", *(*ptr+1));                  //  '*ptr' points to Complete Array    
+                                                //  '*(*ptr)' points to 0th Index Location 

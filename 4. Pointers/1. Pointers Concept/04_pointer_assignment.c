@@ -12,10 +12,10 @@ int main()
     r = &b;
     *r = *p;			// 	POINTER ASSIGNMENT  ->	VALUE IS ASSIGNED
 
-    printf("Address in p : %X\nValue Pointed by p: %d\n", p, *p);
-    printf("Address in q : %X\nValue Pointed by q: %d\n", q, *q);
+    printf("Address in p : %p\nValue Pointed by p: %d\n", p, *p);
+    printf("Address in q : %p\nValue Pointed by q: %d\n", q, *q);
 
-    printf("Value stored by '*r' is %d\n", *r);
+    printf("Value dereferenced by '*r' is %d\n", *r);
 
 
 
