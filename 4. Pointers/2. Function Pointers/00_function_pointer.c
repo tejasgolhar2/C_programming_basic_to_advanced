@@ -1,33 +1,42 @@
 #include<stdio.h>
 
-int addNum(int a, int b)
+void addNum(int a, int b)
 {
-	return a + b;
+	printf( a + b);
 }
 
 
 int main()
 {
     
-	//	Appraoch 1
-    int (*ptr)(int, int) = &addNum;		//	Pointer to function with return type 'int' and takes two 'int' inputs
+	
+    void (*ptr)(int, int) = &addNum;			//	Approach 1: 	Use of '&' and '*'	
 
-    int result1 = *ptr(5,6);			//	Function Dereferencing
-	printf("Approch 1: Result - %d\n", result1);
-
-
-    //	Approach 2
-    int (*qtr)(int, int) = addNum;
-
-    int result2 = qtr(2,322);			//	Dereferencing not needed
-	printf("Approch 2: Result - %d\n", result2);
+ 	*ptr(5,6);									//	Function Dereferencing
 
 
-    //	Wrong Approach
-	int *rtr(int, int); 				//	Declares a function named 'rtr' --> return int pointer --> two int parameters			
+
+    void (*qtr)(int, int) = addNum;				//	Approach 2: 	Without using '&' and '*'	
+
+    qtr(2,322);									//	Dereferencing not needed
+
+
+
+    
+	int *rtr(int, int); 						//	Wrong Approach
+
+	//	Declares a function named 'rtr' --> return int pointer --> two int parameters			
 		
 
 	return 0; 
 }
 
-//	Pointer capable of pointing to a function
+
+
+//	1) 		Unlike normal pointers, a function pointer points to code, not data. 
+//		Typically a function pointer stores the start of executable code.
+
+//	2) 		Unlike normal pointers, we do not allocate de-allocate memory using function pointers.
+
+//	3) 		A function’s name can also be used to get functions’ address. The program still works even address operator ‘&’ in assignment have removed AND function call by removing *
+//		Pointer capable of pointing to a function

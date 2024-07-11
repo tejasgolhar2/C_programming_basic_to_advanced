@@ -7,9 +7,7 @@ int main()
 
 	int a1[5] = { 5, 4, 3, 2, 1};
 
-	//	Pointer to an Entire Array
-
-	int (*q) [5] = &a1;			// q is an integer pointer to 5 elements		-> 	Entire array
+	int (*q) [5] = &a1;			// q is a pointer to 5 elements		-> 	Entire array
 
 	printf("%p\n", q);
 	printf("%d\n", *(*q));

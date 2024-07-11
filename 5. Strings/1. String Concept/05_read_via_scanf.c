@@ -3,11 +3,11 @@
 int main()
 {
 
-	char name[15];			// SPECIFY SIZE --> ELSE ERROR
+	char name[15];				// SPECIFY SIZE --> ELSE ERROR
 	
 	printf("Enter name:\n");
 
-	scanf("%s", name);		// "name" is a pointer to the CHARACTER ARRAY
+	scanf("%s", name);			// "name" is a pointer to the CHARACTER ARRAY [ '&' not needed here]
 	printf("%s", name);
 	return 0;
 }

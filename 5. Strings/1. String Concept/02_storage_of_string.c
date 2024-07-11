@@ -2,7 +2,7 @@
 
 int main()
 {
-	char name[6] = "Tejas";		//	CHARACTER ARRAY --> NOT A STRING LITERAL (VALUES CAN CHANGED)
+	char name[7] = "SPIDER";		//	CHARACTER ARRAY --> NOT A STRING LITERAL (VALUES CAN CHANGED)
 	printf("%s", name );
 
 	return 0;

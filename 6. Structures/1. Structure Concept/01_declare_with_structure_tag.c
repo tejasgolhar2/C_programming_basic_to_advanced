@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 
-struct student						//	Structure Tag			 
+struct student						//	TAG PRESENT			 
 {
 	int roll_no;
 
@@ -9,7 +9,7 @@ struct student						//	Structure Tag
 
 int classMonitor()
 {
-	struct student monitor;			//	Use 1 - in FUNCTION
+	struct student monitor;			//	OBJECT DEFINITION USING TAG
 	monitor.roll_no = 20;
 	return monitor.roll_no;
 }						
@@ -17,7 +17,7 @@ int classMonitor()
 int main()
 {
 
-	struct student tejas;			//	Use 2 - in Local Scope
+	struct student tejas;			//	OBJECT DEFINITION USING TAG
 
 	tejas.roll_no = 24;
 
@@ -33,10 +33,6 @@ int main()
 
 
 //	Creating Structure Object
-
-//	Method 00: Declaring the object(s) name just after the structure declaration without 
-//				mentioning structure as "student". We cannot use the "student" tag for 
-//				new object declaration
 
 //	Method 01: Declaring the object(s) name in the main function. 
 //				Preferred method as new objects can be declared as per requirement

@@ -7,12 +7,12 @@ int main()
     char name2[10];
     char name3[10];
 
-    printf("%s\n", name1);
+    printf("var1: %s\n", name1);
 
-    printf("%s\n", strcpy(name2, name1));		//	return pointer to first character of destination
+    printf("var2: %s\n", strcpy(name2, name1));		//	return pointer to first character of destination
 
     strcpy(name3, name2);
-    printf("%s\n", name3);
+    printf("var3: %s\n", name3);
 
 	return 0;
 }

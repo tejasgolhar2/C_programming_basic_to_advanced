@@ -17,4 +17,4 @@ int main()
 
 //	PROTOTYPE-->	char *strncat(char *destination, char *source, int val)
 
-//		VALUE	-->	Represents the number of characters of source to be appended with source
+//		VALUE	-->	Represents the number of characters of source to be appended with destination
