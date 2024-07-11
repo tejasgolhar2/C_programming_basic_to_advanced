@@ -18,7 +18,7 @@ int main()
 	return 0;
 }
 
-//	Union -> 	User defined datatype where the members share the same memory location
-//						Whereas, struct members have different memory locations
-
-//		CHANGES made is one member are reflected in other members as well.
+//	Union -> 	The Union is a user-defined data type in C language that can contain elements of the
+//			 different data types just like structure. But unlike structures, all the members in the 
+//			 C union are stored in the same memory location. Due to this, only one member can store data 
+//			 at the given instance.
