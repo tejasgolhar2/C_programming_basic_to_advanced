@@ -13,13 +13,12 @@ int main()
 
 	v1.a = 85;
 
-	union var *ptr = &v1;			//	Union Pointer declaration
+	union var *ptr = &v1;							//	Union Pointer declaration
 
-	printf("Value of 'b': %c\n", ptr -> b );
+	printf("Value of 'b': %c\n", ptr -> b );		//	ACCESS UNION MEMBERS USING (->) ARROW OPERATOR
 
 	return 0;
 }
 
 
 
-//	ACCESS UNION MEMBERS USING (->) ARROW OPERATOR

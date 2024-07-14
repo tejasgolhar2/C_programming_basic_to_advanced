@@ -13,7 +13,7 @@ int main()
 {
 	union random r1;
 
-	printf("Size of union 'r1': %llu\n", sizeof(r1));    
+	printf("Size of union: %llu\n", sizeof(r1));    
 
 	return 0;
 }

@@ -13,7 +13,7 @@ int main()
 
 	v1.a = 90;
 
-	printf("Value of 'b': %c\n", v1.b );
+	printf("b: %c\n", v1.b );
 
 	return 0;
 }
