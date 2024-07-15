@@ -18,6 +18,12 @@ int main()
 
     fprintf(ptr,"%s", ch);						//	PASS CONTENT TO FILE
 
+//  fputs(ch, ptr);
+//  for(int i  = 0; i < strlen(ch); i++)
+//    {
+//        fputch(ch[i] , ptr);
+//    }
+
     fclose(ptr);								//	CLOSE FILE
 
 
