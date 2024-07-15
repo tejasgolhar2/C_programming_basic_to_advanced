@@ -2,10 +2,10 @@
 
 int main()
 {
-    int array[6] = {55, 2, 3, 4, 5, 54};
+    char str[20];
+    scanf("%s", str);
 
-    int (*ptr)[6] = &array;                         //--->  array of integers
-    printf("%d", *(*ptr+6));
+    printf("%s\n", str);
 
     return 0;
 }

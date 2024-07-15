@@ -13,11 +13,7 @@ int main()
 
 	v1.a = 90;
 
-	printf("b: %c\n", v1.b );
+	printf("b: %c\n", v1.b );			//	ACCESS UNION MEMBERS USING (.) DOT OPERATOR
 
 	return 0;
 }
-
-
-
-//	ACCESS UNION MEMBERS USING (.) DOT OPERATOR

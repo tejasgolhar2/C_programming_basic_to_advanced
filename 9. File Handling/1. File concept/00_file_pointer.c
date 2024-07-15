@@ -23,3 +23,5 @@ int main()
 
 //	FILE is the struct under "stdio.h" that defines the file of both types mentioned above.
 
+//	NOTE:
+//		File is not accessed directly, instead its copy is loaded into RAM buffer and accessed.
