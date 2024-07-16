@@ -7,6 +7,7 @@ int main()
     
     //  Create new file and open, when file not found.
     //  Returns NULL, when unable to open file.
+    //  USED to Modify the file AND READ the file
  
     FILE* ptr =  NULL;
 
