@@ -7,8 +7,9 @@ int main()
 
     FILE* ptr;                               		//  Declare File Pointer
 
-    ptr = fopen("file.txt", "r");                   //  Initialise File Pointer
-    												//	DOESN'T CREATE NEW FILE	-> WHEN FILE NOT FOUND
+    ptr = fopen("file.txt", "r");                   //  READ MODE ->   Read File content, file content unchanged
+    												//	NO NEW FILE CREATED, WHEN not found
+                                                    //  RETURNS NULL    ->   WHEN FAILED
 
     if (ptr == NULL)
     {

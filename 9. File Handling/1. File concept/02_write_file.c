@@ -7,8 +7,9 @@ int main()
 
     FILE* ptr;                                      //  Declare File Pointer
 
-    ptr = fopen("file.txt", "w");                   //  Initialise File Pointer
-                                                    //  CREATES NEW FILE -> WHEN FILE NOT FOUND
+    ptr = fopen("file.txt", "w");                   //  WRITE MODE ->   Erase file content and REWRITE it
+                                                    //  NEW FILE CREATED AND OPENED, WHEN NOT FOUND
+                                                    //  RETURNS NULL, WHEN FAILED
     if (ptr == NULL)
     {
     	printf("Process cannot completed !");
