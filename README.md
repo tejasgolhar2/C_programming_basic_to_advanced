@@ -13,6 +13,7 @@
 #### 1. [Jennys Lectures](https://youtube.com/playlist?list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S&si=HLELEWs5xrVu_ZJo)
 #### 2. [Apna College](https://youtu.be/irqbmMNs2Bo?si=wOOWuBHY3bLza1Gs)
 #### 3. [Neso Academy](https://youtube.com/playlist?list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR&si=WB63yPVIAHD0ilDu) 
-#### 3. [Geeks for Geeks](https://www.geeksforgeeks.org/c-programming-language/) 
+#### 4. [Geeks for Geeks](https://www.geeksforgeeks.org/c-programming-language/) 
+#### 5. [Ws Cube Tech](https://youtube.com/playlist?list=PLjVLYmrlmjGcrFEK43__3yeeySU1N7vpW&si=cchRMjnoceXU_gpP)
 
 
