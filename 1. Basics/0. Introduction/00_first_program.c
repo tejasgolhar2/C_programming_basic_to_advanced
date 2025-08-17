@@ -6,7 +6,7 @@
 
 // Section 2: Header/ Link Section
 #include<stdio.h>
-#include<ncurses.h>			// Windows - nucurses/ncurses.h  Linux - ncurses.h
+#include<ncurses/ncurses.h>			// Windows - nucurses/ncurses.h  Linux - ncurses.h
 //#include<conio.h>
 
 // Section 3: Definition Section
